@@ -1039,7 +1039,7 @@ This project is intended for research and educational purposes.
 Market predictions and backtests are not guarantees of future performance. Historical performance does not necessarily represent future results.
 
 Author
-
+MAHADEV MALLINATH SHETE
 NIFTY Forecasting Platform
 
 A long-term quantitative research and machine-learning project focused on building a reproducible, multi-modal forecasting infrastructure for Indian markets.
