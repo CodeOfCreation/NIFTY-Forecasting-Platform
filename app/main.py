@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from config.settings import settings
 
 app= FastAPI(
     title='Nifty Forecasting Platform',
@@ -9,4 +10,8 @@ app= FastAPI(
 
 @app.get('/')
 def root():
-    return {'message':'Welcome to Nifty Forecasting Platform'}
+    return {
+        'message':f'{settings.app_name} is running',
+        'version':settings.app_version,
+        'enviroment':settings.enviroment
+    }
